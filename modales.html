@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="benefits.css" />
+  </head>
+  <body>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn" id="close-btn">&times;</span>
+        <div class="titulo-modal">
+          <img
+            class="carretilla"
+            src="../src//carro-de-la-carretilla.png"
+            alt=""
+          />
+          <h2>Your Cart</h2>
+        </div>
+        <div class="clear-all" id="clear-all">
+          <p id="clear-cart-btn" class="clear">Clear all</p>
+        </div>
+        <div class="contenido-modal"></div>
+
+        <div class="button-container">
+          <button
+            class="add-to-cart-btn"
+            id="buy-button-modal"
+          >
+            Confirm Perks
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="benefits.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="benefits.css" />
+  </head>
+  <body class="">
+    <div id="commentModal" class="modal-comentario">
+      <div class="modal-content-comentario">
+        <span class="close-comentario" id="closeCommentModal">&times;</span>
+        <h2>Cancellation reason</h2>
+        <textarea
+          id="commentText"
+          placeholder="Write your comment here..."
+          rows="6"
+        ></textarea>
+        <button id="submitCommentBtn">Submit</button>
+      </div>
+    </div>
+    <script src="benefits.js"></script>
+  </body>
+</html>
